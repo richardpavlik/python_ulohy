@@ -25,5 +25,5 @@ def kvadraticka():
         return "Zadej platné koeficienty kvadratické rovnice!"
 
 """
-print(kvadraticka())
+
 
