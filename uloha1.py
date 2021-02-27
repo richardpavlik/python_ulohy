@@ -4,6 +4,8 @@ def kvadraticka():
     b = int(input("Zadej druhý koeficient kvadratické rovnice: "))
     c = int(input("Zadej třetí koeficient kvadratické rovnice: "))
     diskriminant = b**2 - 4*a*c
+    if diskriminant < 0 :
+        return None
     return f"První kořen je {(-b + math.sqrt(diskriminant)) / (2*a)}, druhý kořen je {(-b - math.sqrt(diskriminant)) / (2*a)}"
 
 """
@@ -16,6 +18,8 @@ def kvadraticka():
         b = int(input("Zadej druhý koeficient kvadratické rovnice: "))
         c = int(input("Zadej třetí koeficient kvadratické rovnice: "))
         diskriminant = b**2 - 4*a*c
+        if diskriminant < 0 :
+            return None
         return f"První kořen je {(-b + math.sqrt(diskriminant)) / (2*a)}, druhý kořen je {(-b - math.sqrt(diskriminant)) / (2*a)}"
     except ValueError:
         return "Zadej platné koeficienty kvadratické rovnice!"
