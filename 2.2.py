@@ -37,3 +37,4 @@ while run:
         #pokud je daná podmínka splněna, proměnnou, která slouží jako podmínka ve while loop, stanovíme na hodnotu False, a tudíž se while loop zastaví
         run = False
     #else psát nemusíme, protože když hráč napíše "y", proměnná run bude pořád na hodnotě True
+    
