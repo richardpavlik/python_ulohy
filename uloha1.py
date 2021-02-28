@@ -11,6 +11,7 @@ def kvadraticka():
     print(f"Dikriminant je: {diskriminant}")
     print(f"Kvadratická rovnice vypadá takto: {a}x2 + {b}x + {c}")
     return f"První kořen je {(-b + math.sqrt(diskriminant)) / (2*a)}, druhý kořen je {(-b - math.sqrt(diskriminant)) / (2*a)}"
+#f značí tzv. "formatted string"
 
 """
 Verze s try a except
