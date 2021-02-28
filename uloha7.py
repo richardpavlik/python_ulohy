@@ -14,6 +14,7 @@ def nahodne_cislo():
         else:
             return "Prohrál/a si!"
 
+
 #verze s try except - když hráč zadá něco jiného než číslo, program nespadne, ale vypíše zprávu a spustí se znova
 """
 import random
